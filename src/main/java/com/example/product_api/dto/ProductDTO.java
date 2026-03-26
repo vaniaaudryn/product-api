@@ -10,7 +10,6 @@ public class ProductDTO {
     private Double price;
     private Integer stock;
     
-    // ✅ SATU SET GETTER/SETTER SAJA - NO DUPLICATE
     @NotBlank(message = "Name is required")
     public String getName() {
         return name;
